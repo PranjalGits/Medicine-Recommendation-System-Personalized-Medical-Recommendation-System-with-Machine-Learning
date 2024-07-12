@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Predict Disease</h1>
+    <form method="POST">
+        <label for="symptoms">Enter your symptoms:</label>
+        <select name="symptoms" id="symptoms" multiple>
+            {% for symptom in symptoms_dict %}
+                <option value="{{ symptom }}">{{ symptom }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if disease %}
+        <h2>Diagnosis: {{ disease }}</h2>
+        <p>{{ desc }}</p>
+        <h3>Precautions</h3>
+        <ul>
+            {% for p in pre %}
+                <li>{{ p }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Medications</h3>
+        <ul>
+            {% for m in med %}
+                <li>{{ m }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Diet</h3>
+        <ul>
+            {% for d in die %}
+                <li>{{ d }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Workout</h3>
+        <ul>
+            {% for w in wrkout %}
+                <li>{{ w }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
