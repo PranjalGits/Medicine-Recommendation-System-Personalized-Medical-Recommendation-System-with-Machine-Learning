@@ -199,7 +199,7 @@ elif selected == "Voice & Vision Chatbot":
             transcription = transcribe_with_groq(
                 stt_model="whisper-large-v3",
                 audio_filepath=audio_path,
-                GROQ_API_KEY=os.environ.get("GROQ_API_KEY")
+                GROQ_API_KEY=os.environ.get("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")
             )
             st.markdown("### 🗣 Transcription")
             st.write(transcription)
@@ -236,7 +236,8 @@ elif selected == "AI Doctor Chat":
         st.chat_message("user").markdown(user_input)
         st.session_state.chat_history.append(("user", user_input))
 
-        chat_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        chat_client = Groq(api_key="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")
+
         formatted_history = [{"role": role, "content": msg} for role, msg in st.session_state.chat_history]
         response = chat_client.chat.completions.create(
             model="meta-llama/llama-4-scout-17b-16e-instruct",

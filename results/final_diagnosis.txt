@@ -1,10 +1,5 @@
-**Multidisciplinary Team Review and Analysis**
+Based on the medical reports from the Cardiologist, Psychologist, and Pulmonologist, our multidisciplinary team has identified the following 3 possible health issues of the patient:
 
-After reviewing the medical reports from the Cardiologist, Psychologist, and Pulmonologist, our team has identified the following 3 possible health issues of the patient:
-
-* **Possible Health Issue 1: Diabetic Cardiomyopathy and Cardiovascular Disease**
-	+ Reason: The patient's Type 2 Diabetes Mellitus diagnosis increases his risk for cardiac complications, such as diabetic cardiomyopathy, coronary artery disease, and heart failure. His smoking habit and hypertension also contribute to his risk for cardiovascular disease.
-* **Possible Health Issue 2: Chronic Obstructive Pulmonary Disease (COPD)**
-	+ Reason: The patient's smoking history (1 pack/day) increases his risk of developing COPD. His age (58) and smoking history make it a potential concern, and further investigation is needed to rule out COPD or asthma.
-* **Possible Health Issue 3: Lung Infections or Respiratory Complications**
-	+ Reason: The patient's recent lab results show glucosuria, which may indicate an underlying infection, such as pneumonia, especially in a diabetic patient. His smoking habit and occasional respiratory symptoms also increase his risk for respiratory complications.
+* **Cardiovascular Disease:** This is a likely health issue due to the patient's history of hypertension (142/90 mmHg), smoking habit (1 pack/day), and central obesity (BMI 29.4). The Cardiologist's report highlights the increased risk of coronary artery disease, heart failure, and left ventricular hypertrophy. The patient's smoking habit also increases the risk of peripheral artery disease.
+* **Type 2 Diabetes Mellitus Complications:** The patient's Type 2 Diabetes Mellitus diagnosis increases the risk of cardiac complications, such as diabetic cardiomyopathy, coronary artery disease, and heart failure. The patient's symptoms, such as frequent urination, excessive thirst, and occasional blurry vision, may be indicative of uncontrolled diabetes.
+* **Respiratory Complications:** The patient's smoking habit (1 pack/day) increases the risk of developing Chronic Obstructive Pulmonary Disease (COPD) and lung infections. The Pulmonologist's report highlights the need for pulmonary function tests (PFTs) and imaging studies to assess lung function and rule out COPD or asthma.

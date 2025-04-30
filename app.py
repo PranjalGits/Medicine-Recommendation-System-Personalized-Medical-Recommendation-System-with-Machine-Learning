@@ -223,7 +223,7 @@ if user_input := st.chat_input("Ask me anything..."):
     st.chat_message("user").markdown(user_input)
     st.session_state.chat_history.append(("user", user_input))
 
-    chat_client = Groq(api_key="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")
+    chat_client = Groq(api_key="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")
     formatted_history = [{"role": role, "content": msg} for role, msg in st.session_state.chat_history]
     response = chat_client.chat.completions.create(
         model="meta-llama/llama-4-scout-17b-16e-instruct",
